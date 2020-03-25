@@ -18,7 +18,7 @@ except:
 	sys.exit()
 inputFile = file.read()
 file.close()
-declarations = re.findall("(?<!;\n\n)(?<=\n\n).+\)", inputFile)
+declarations = re.findall("[^\t\n]+\t.+\)$", inputFile)
 try:
 	file = open(sys.argv[2], "a")
 except:
