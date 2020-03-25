@@ -1,2 +1,6 @@
-# declarations_to_header_file
-Python script that appends declarations from a source file to a header file.
+# Append prototypes to header file.
+This script can be used to automatically get each function declaration from a specified source file, and append it's respective function prototype to a specied header file.
+## Usage
+```
+
+```
