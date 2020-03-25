@@ -5,4 +5,5 @@ This script can be used to automatically get each function declaration from a sp
 ./append_prototypes INPUT_FILE OUTPUT_FILE [INDENTATION]
 ```
 Indentation changes the amount of tabs between function prototype return type and function name.
+
 Default indentation is 1.
