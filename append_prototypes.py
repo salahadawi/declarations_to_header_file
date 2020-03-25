@@ -3,7 +3,9 @@
 import sys, re
 
 if (len(sys.argv) != 3):
-	print("Usage: ./append_declarations [input_file] [output_file]")
+	print("Usage: append_declarations INPUT_FILE OUTPUT_FILE [INDENTATION]")
+	print("Default indentation is 1.")
+	sys.exit()
 try:
 	indentAmount = int(sys.argv[3])
 except:
