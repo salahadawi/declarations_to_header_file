@@ -27,5 +27,5 @@ except:
 for dec in declarations:
 	type, tab, name  = dec.partition("\t")
 	if not dec.startswith("int\tmain"):
-		file.write(type + tab * indentAmount + name + ";\n\n")
+		file.write("\n" + type + tab * indentAmount + name + ";\n")
 file.close()
