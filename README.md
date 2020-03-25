@@ -7,3 +7,6 @@ This script can be used to automatically get each function declaration from a sp
 Indentation changes the amount of tabs between prototype return type and function name.
 
 Default indentation is 1.
+
+## To fix
+If the source file does not comform to the Norm, the script might not detect all declarations
