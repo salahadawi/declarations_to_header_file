@@ -8,5 +8,5 @@ Indentation changes the amount of tabs between prototype return type and functio
 
 Default indentation is 1.
 
-## To fix
-If the source file does not comform to the Norm, the script might not detect all declarations
+## Norm
+If the source file does not comform to the Norm, the script might not detect all declarations.
