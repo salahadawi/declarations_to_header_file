@@ -4,7 +4,7 @@ This script can be used to automatically get each function declaration from a sp
 Prototypes already existing in the output file are not added to avoid duplicates.
 ## Usage
 ```
-./append_prototypes INPUT_FILE OUTPUT_FILE [INDENTATION]
+./add_prototypes INPUT_FILE OUTPUT_FILE [INDENTATION]
 ```
 Indentation changes the amount of tabs between prototype return type and function name.
 
