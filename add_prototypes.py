@@ -3,7 +3,7 @@
 import sys, re
 # Check if there are enough arguments
 if (len(sys.argv) < 3):
-	print("Usage: append_declarations INPUT_FILE OUTPUT_FILE [INDENTATION]")
+	print("Usage: ./add_prototypes.py INPUT_FILE OUTPUT_FILE [INDENTATION]")
 	print("Default indentation is 1.")
 	sys.exit()
 
