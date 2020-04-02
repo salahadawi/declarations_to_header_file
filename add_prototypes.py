@@ -27,12 +27,11 @@ file.close()
 # Find all declarations in input file
 declarations = re.findall("[^\t\n]+\t.+\)", inputFile)
 
-# Open file specified in second argument, if it fails return an error
+# Open file specified in second argument, or create file if id does not exist
 try:
 	file = open(sys.argv[2], "r+")
 except:
-	print("Output file not found.")
-	sys.exit()
+	file = open(sys.argv[2], "w+")
 
 # Read and save input file to string upto but not including #endif statement
 outputFile = ""
